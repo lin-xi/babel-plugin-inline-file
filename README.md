@@ -4,16 +4,17 @@ In most case, webpack will remove comments while minify code, though some certai
 
 This plugin is target to inject C# code for edge-js。
 
+## js
 ```
 edge.func({
-    source: function(){__inline("face/camera.cs")},
+    source: function(){__inline("camera.cs")},
     references: [
         path.join(__static, "face/Intel.RealSense.dll")
     ],
 })
 ```
 
-## face/camera.cs
+## camera.cs
 ```
 /*
 #r "System.Drawing.dll"
