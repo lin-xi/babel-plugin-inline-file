@@ -1,0 +1,30 @@
+{
+  "name": "babel-plugin-inline-file",
+  "version": "1.0.0",
+  "description": "Babel plugin to inline files. Inline C# code in edge-js is convenient!",
+  "main": "index.js",
+  "author": "Xi Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lin-xi/babel-plugin-inline-file/issues"
+  },
+  "homepage": "https://github.com/lin-xi/babel-plugin-inline-file#readme",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lin-xi/babel-plugin-inline-file.git"
+  },
+  "keywords": [
+    "egde-js",
+    "electron",
+    "babel",
+    "inline"
+  ],
+  "dependencies": {
+    "datauri": "^4.1.0",
+    "is-binary-path": "^2.1.0"
+  }
+}
