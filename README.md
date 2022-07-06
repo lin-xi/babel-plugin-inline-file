@@ -27,3 +27,20 @@ using System.Threading.Tasks;
 
 */
 ```
+
+## install
+
+```
+yarn add babel-plugin-inline-file -D
+```
+
+
+## .babelrc
+```
+{
+    "plugins": [
+        "babel-plugin-fis-inline"
+    ]
+}
+
+```
